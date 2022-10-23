@@ -36,9 +36,9 @@
         overflow: hidden;
     }
     &__price {
-        height: 105px;
-        font-size: 67px;
-        line-height: 105px;
+        font-weight: $font-weight-title;
+        font-size: 55px;
+        line-height: 67px;
         text-align: center;
         background-color: $background-card-green;
         &_blue {
@@ -70,6 +70,13 @@
     font-weight: $font-weight-title;
     background: $background-card-prime;
     margin: 0;
+    &__title {
+        font-size: $font-size-title;
+        line-height: 43px;
+        text-align: center;
+        font-weight: $font-weight-title;
+        margin: 0;
+    }
     &__subtitle {
         font-size: $font-size-sub-4;
         line-height: 24px;
@@ -82,7 +89,7 @@
     height: 147px;
     width: 25px;
     position: absolute;
-    top: -13%;
+    top: -20%;
     left: 87%;
     background: #dc3f45 $background-popular;
     transform: rotate(-45deg);
