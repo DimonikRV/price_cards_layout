@@ -33,10 +33,10 @@
 }
 
 .price-card__heder {
-    padding: 33px;
+    padding: 33px 0;
     position: relative;
     overflow: hidden;
-    margin: 0;
+    height: 130px;
 }
 
 .price-title {
@@ -58,17 +58,20 @@
 }
 
 .price-title__subtitle {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
     background: #334247;
+    margin: 0;
 }
 
 .price-title__popular {
     height: 147px;
     width: 25px;
     position: absolute;
-    top: -20%;
+    top: -25%;
     left: 87%;
     background: #dc3f45;
     transform: rotate(-45deg);

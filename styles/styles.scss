@@ -34,6 +34,7 @@
         padding: 33px;
         position: relative;
         overflow: hidden;
+        height: 130px;
     }
     &__price {
         font-weight: $font-weight-title;
@@ -79,10 +80,11 @@
         margin: 0;
     }
     &__subtitle {
-        font-size: $font-size-sub-4;
-        line-height: 24px;
-        font-weight: $font-weight-title;
+        font-size: $font-size-sub-3;
+        line-height: 14px;
+        font-weight: $font-weight-reg;
         background: $background-card-prime;
+        font-family: Roboto;
     }
 }
 
@@ -90,7 +92,7 @@
     height: 147px;
     width: 25px;
     position: absolute;
-    top: -20%;
+    top: -25%;
     left: 87%;
     background: #dc3f45 $background-popular;
     transform: rotate(-45deg);
