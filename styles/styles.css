@@ -12,16 +12,17 @@
 }
 
 .price-cards {
-    width: 1202px;
+    width: 1176px;
     height: 770px;
     background: #141b1c;
+    display: flex;
     /* margin: 115px auto; */
 }
 
 .price-card {
-    width: 398px;
+    width: 392px;
     height: 770px;
-    display: inline-block;
+    display: flex;
     color: #fff;
     padding: 0 9px;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -58,13 +59,12 @@
 }
 
 .price-title__subtitle {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
     text-align: center;
-    background: #334247;
-    margin: 0;
 }
 
 .price-title__popular {
