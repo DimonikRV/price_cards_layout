@@ -5,13 +5,21 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
+}
+.price-tables {
+  margin: auto;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141b1c;
+}
+.price-cards {
+  display: flex;
+  height: 770px;
+  background: #141b1c;
 }
 .price-card {
   width: 380px;
@@ -120,19 +128,6 @@ body {
 }
 .options-list__item img {
   margin-right: 22px;
-}
-
-.price-tables {
-  margin: auto;
-  width: 1440px;
-  height: 1000px;
-  background-color: #141b1c;
-}
-
-.price-cards {
-  display: flex;
-  height: 770px;
-  background: #141b1c;
 }
 
 .options-list__item {
