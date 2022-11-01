@@ -1,6 +1,6 @@
-@import "variables.scss";
-@import "price-cards.scss";
-@import "common.scss";
+@import 'variables.scss';
+@import 'price-cards.scss';
+@import 'common.scss';
 
 * {
   box-sizing: border-box;
@@ -9,9 +9,7 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   width: 100vw;
   height: 100vh;
   font-family: $font-family-basic;
