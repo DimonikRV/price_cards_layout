@@ -1,6 +1,6 @@
 Price cards layout sample Project
 
-Site link: https://dimonikrv.github.io/foundation_layout/
+Site link: https://dimonikrv.github.io/price_cards_layout/
 
 The tech stack is:
 
