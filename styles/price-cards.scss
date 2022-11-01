@@ -1,0 +1,111 @@
+@import 'variables.scss';
+.price-card {
+  width: 380px;
+  height: 770px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
+  &__title {
+    text-align: center;
+    background: $background-card-prime;
+  }
+  &__heder {
+    position: relative;
+    padding: 33px;
+    overflow: hidden;
+    height: 130px;
+  }
+  &__price {
+    padding: 19px 110px;
+    text-align: center;
+    font-weight: $font-weight-title;
+    font-size: 55px;
+    line-height: 67px;
+
+    &_green {
+      background-color: $background-card-green;
+    }
+
+    &_blue {
+      background-color: $background-card-blue;
+    }
+    &_orange {
+      background-color: $background-card-orange;
+    }
+  }
+  &__description {
+    padding: 40px 26px;
+    text-align: center;
+    font-weight: $font-weight-small;
+    font-size: $font-size-regular;
+    line-height: 18px;
+    color: $font-color-basic;
+    background-color: $background-card-prime;
+  }
+  &__order-btn {
+    padding: 40px 113px;
+    background: $background-card-prime;
+  }
+}
+
+.price-title {
+  text-align: center;
+  font-size: $font-size-title;
+  line-height: 43px;
+  font-weight: $font-weight-title;
+  background: $background-card-prime;
+  &__title {
+    text-align: center;
+    font-size: $font-size-title;
+    line-height: 43px;
+    font-weight: $font-weight-title;
+  }
+  &__subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: $font-weight-reg;
+    letter-spacing: 0px;
+  }
+}
+
+.popular {
+  position: absolute;
+  top: -25%;
+  left: 87%;
+  transform: rotate(-45deg);
+  width: 25px;
+  height: 147px;
+  background: $background-popular;
+
+  &__text {
+    position: absolute;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-weight: $font-weight-title;
+    font-size: 14px;
+    line-height: 17px;
+    color: $font-color-basic;
+  }
+}
+
+.options-list {
+  list-style: none;
+  &__item {
+    padding: 16px 22px;
+    height: 50px;
+    font-weight: $font-weight-small;
+    font-size: $font-size-regular;
+    line-height: 18px;
+    &:nth-child(even) {
+      background-color: $background-card-prime;
+    }
+    &:nth-child(odd) {
+      background-color: $background-card-second;
+    }
+    & img {
+      margin-right: 22px;
+    }
+  }
+}

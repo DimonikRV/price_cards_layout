@@ -1,0 +1,50 @@
+@import 'variables.scss';
+
+.price-tables {
+  margin: auto;
+  width: 1440px;
+  height: 1000px;
+  background-color: $background-main;
+}
+.price-cards {
+  display: flex;
+  height: 770px;
+  background: $background-main;
+}
+.options-list__item {
+  padding-left: 59px;
+  &_green {
+    padding-left: 59px;
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png')
+      22px no-repeat;
+  }
+  &_blue {
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png')
+      22px no-repeat;
+  }
+  &_orange {
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png')
+      22px no-repeat;
+  }
+}
+.order-btn {
+  padding: 11px 26px 12px 27px;
+  text-align: center;
+  font-weight: $font-weight-reg;
+  font-size: 14px;
+  line-height: 17px;
+  color: $font-color-basic;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+
+  &_green {
+    background: $background-card-green;
+  }
+  &_blue {
+    background-color: $background-card-blue;
+  }
+  &_orange {
+    background-color: $background-card-orange;
+  }
+}
