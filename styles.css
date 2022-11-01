@@ -5,13 +5,14 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
 .price-tables {
-  margin: auto;
+  margin: 0 auto;
   width: 1440px;
   height: 1000px;
   background-color: #141b1c;
@@ -35,8 +36,10 @@ body {
 }
 .price-card__heder {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow: hidden;
-  padding: 33px;
   height: 130px;
 }
 .price-card__price {
@@ -102,6 +105,8 @@ body {
 }
 .popular__text {
   position: absolute;
+  top: 60px;
+  right: -23px;
   transform: rotate(90deg);
   text-transform: uppercase;
   font-weight: 700;
