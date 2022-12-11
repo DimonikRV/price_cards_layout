@@ -8,15 +8,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141b1c;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
-.price-tables {
-  margin: 0 auto;
-  width: 1440px;
-  height: 1000px;
-  background-color: #141b1c;
-}
+
 .price-cards {
   display: flex;
   height: 770px;
