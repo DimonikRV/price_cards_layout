@@ -11,6 +11,12 @@
   height: 770px;
   background: $background-main;
 }
+.price {
+  margin: 19px 110px;
+  font-weight: $font-weight-title;
+  font-size: 55px;
+  line-height: 67px;
+}
 .options-list__item {
   padding-left: 59px;
   &_green {

@@ -17,11 +17,11 @@
     height: 130px;
   }
   &__price {
-    padding: 19px 110px;
-    text-align: center;
-    font-weight: $font-weight-title;
-    font-size: 55px;
-    line-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 105px;
 
     &_green {
       background-color: $background-card-green;
