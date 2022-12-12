@@ -30,8 +30,7 @@ body {
   margin-right: 18px;
 }
 .price-card__title {
-  text-align: center;
-  background: #334247;
+  margin: 33px 0;
 }
 .price-card__heder {
   position: relative;
