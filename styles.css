@@ -29,16 +29,14 @@ body {
 .price-card:not(:last-child) {
   margin-right: 18px;
 }
-.price-card__title {
-  margin: 33px 0;
-}
-.price-card__heder {
+
+.price-card__header {
   position: relative;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
   overflow: hidden;
-  height: 130px;
+  background: #334247;
 }
 .price-card__price {
   display: flex;
@@ -75,12 +73,9 @@ body {
 }
 
 .price-title {
-  margin: 0;
-  font-size: 35px;
-  line-height: 43px;
-  text-align: center;
-  font-weight: 700;
-  background: #334247;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 33px 0;
 }
 .price-title__title {
   font-size: 35px;

@@ -9,11 +9,9 @@
   &__title {
     margin: 33px 0;
   }
-  &__heder {
+  &__header {
     position: relative;
-    padding: 33px;
     overflow: hidden;
-    height: 130px;
   }
   &__price {
     display: flex;
@@ -49,10 +47,7 @@
 }
 
 .price-title {
-  text-align: center;
-  font-size: $font-size-title;
-  line-height: 43px;
-  font-weight: $font-weight-title;
+  margin: 33px 0;
   background: $background-card-prime;
   &__title {
     text-align: center;
