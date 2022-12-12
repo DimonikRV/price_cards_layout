@@ -11,7 +11,11 @@
   }
   &__header {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+    background: #334247;
   }
   &__price {
     display: flex;
@@ -47,8 +51,9 @@
 }
 
 .price-title {
+  display: inline-flex;
+  flex-direction: column;
   margin: 33px 0;
-  background: $background-card-prime;
   &__title {
     text-align: center;
     font-size: $font-size-title;
