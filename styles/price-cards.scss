@@ -1,7 +1,10 @@
 @import 'variables.scss';
 .price-card {
+  position: relative;
+  overflow: hidden;
   width: 380px;
   height: 770px;
+  background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   &:not(:last-child) {
     margin-right: 18px;
@@ -9,20 +12,15 @@
   &__title {
     margin: 33px 0;
   }
-  &__header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #334247;
-  }
   &__price {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 380px;
+    width: 100%;
     height: 105px;
+    font-weight: $font-weight-title;
+    font-size: 55px;
+    line-height: 67px;
 
     &_green {
       background-color: $background-card-green;
@@ -36,6 +34,8 @@
     }
   }
   &__description {
+    display: flex;
+    height: 116px;
     padding: 40px 26px;
     text-align: center;
     font-weight: $font-weight-small;
@@ -46,14 +46,18 @@
   }
   &__order-btn {
     padding: 40px 113px;
-    background: $background-card-prime;
   }
 }
 
 .price-title {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   margin: 33px 0;
+  overflow: hidden;
+  background: #334247;
   &__title {
     text-align: center;
     font-size: $font-size-title;
@@ -71,7 +75,7 @@
 
 .popular {
   position: absolute;
-  top: -25%;
+  top: -4%;
   left: 87%;
   transform: rotate(-45deg);
   width: 25px;
