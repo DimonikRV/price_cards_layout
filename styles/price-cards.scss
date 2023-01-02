@@ -75,11 +75,17 @@
 
 .popular {
   position: absolute;
-  top: -4%;
-  left: 87%;
-  transform: rotate(-45deg);
-  width: 25px;
-  height: 147px;
+  top: 3%;
+  left: 70%;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: $font-weight-title;
+  font-size: 14px;
+  line-height: 25px;
+  color: $font-color-basic;
   background: $background-popular;
 
   &__text {

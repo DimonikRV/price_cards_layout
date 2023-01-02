@@ -98,23 +98,18 @@ body {
 
 .popular {
   position: absolute;
-  top: -4%;
-  left: 87%;
-  transform: rotate(-45deg);
-  width: 25px;
-  height: 147px;
-  background: #dc3f45;
-}
-.popular__text {
-  position: absolute;
-  top: 60px;
-  right: -23px;
-  transform: rotate(90deg);
+  top: 3%;
+  left: 70%;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 25px;
   color: #fff;
+  background: #dc3f45;
 }
 
 .options-list {
