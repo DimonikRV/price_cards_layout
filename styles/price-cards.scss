@@ -87,16 +87,6 @@
   line-height: 25px;
   color: $font-color-basic;
   background: $background-popular;
-
-  &__text {
-    position: absolute;
-    transform: rotate(90deg);
-    text-transform: uppercase;
-    font-weight: $font-weight-title;
-    font-size: 14px;
-    line-height: 17px;
-    color: $font-color-basic;
-  }
 }
 
 .options-list {
