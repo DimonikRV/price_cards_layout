@@ -8,18 +8,15 @@
 
 .options-list__item {
   padding-left: 59px;
-  &_green {
-    padding-left: 59px;
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png')
-      22px no-repeat;
+  background-position: 22px;
+  background-repeat: no-repeat &_green {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
   }
   &_blue {
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png')
-      22px no-repeat;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
   }
   &_orange {
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png')
-      22px no-repeat;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
   }
 }
 .order-btn {
