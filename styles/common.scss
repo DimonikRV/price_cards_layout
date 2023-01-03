@@ -9,7 +9,8 @@
 .options-list__item {
   padding-left: 59px;
   background-position: 22px;
-  background-repeat: no-repeat &_green {
+  background-repeat: no-repeat;
+  &_green {
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
   }
   &_blue {
